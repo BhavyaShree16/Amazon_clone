@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <nav>
+        <a href="/"><img src="/assets/amazon_logo.png" width="100"></a>
+        <div class="nav-country">
+            <img src="/assets/location_icon.png" height="20">
+            <div>
+                <p>Deliver to</p>
+                <h1>India</h1>
+            </div>
+        </div>
+        <div class="nav-search">
+            <div class="nav-search-category">
+                <p>All</p>
+                <img src="/assets/dropdown_icon.png" height="12">
+            </div>
+            <input type="text" class="nav-search-input" placeholder="Search">
+            <img src="/assets/search_icon.png" class="nav-search-icon">
+        </div>
+        <div class="nav-language">
+            <img src="/assets/us_flag.png" width="25px">
+            <p>EN</p>
+            <img src="/assets/dropdown_icon.png" width="8px" >
+        </div>
+        <div class="nav-text">
+            <p><a href="signin.html">Hello,Sign in</a></p>
+            <h1>Accounts & Lists <img src="/assets/dropdown_icon.png" width="8px"></h1>
+        </div>
+        <div class="nav-text">
+            <p>Return</p>
+            <h1>& Orders</h1>
+        </div>
+        <div>
+            <a href="" class="nav-cart">
+                <img src="/assets/cart_icon.png" width="35px">
+                <h4>Cart</h4>
+            </a>
+        </div>
+    </nav>
+    <div class="nav-bottom">
+        <div >
+            <img src="/assets/menu_icon.png" width="25px">
+            <p>All</p>
+        </div>
+        <p>Today's Deal</p>
+        <p>Customer Service</p>
+        <p>Registry</p>
+        <p>Gift Cards</p>
+        <p>Sell</p>
+    </div>
+    <div class="cart-container">
+        <h2 class="cart-title">Shopping Cart</h2>
+        
+        <div class="cart-item">
+            <img src="assets/ipad_img.jpg" alt="iPad" class="item-image">
+            <div class="item-info">
+                <h3>Apple iPad (9th Generation): with A13 Bionic chip, 10.2-inch Retina Display, 64GB, Wi-Fi, 12MP Front/8MP Back Camera, Touch ID, All-Day Battery Life – Space Gray</h3>
+                <span class="best-seller">#1 Best Seller</span>
+                <p>FREE delivery <strong>Mon, Jan 29</strong></p>
+                <p class="returns">FREE Returns</p>
+                <p>Style: WiFi | Size: 64GB | Color: Space Gray</p>
+                <div class="item-actions">
+                    <label for="qty1">Qty: </label>
+                    <select id="qty1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <button>Delete</button>
+                    <button>Save for later</button>
+                    <button>Compare with similar items</button>
+                </div>
+            </div>
+            <div class="item-price">$249.00</div>
+        </div>
+      
+        <div class="cart-item">
+            <a href="product.html">
+                <img src="assets/product_img.jpg" alt="Headphones" class="item-image">
+            </a>
+            <div class="item-info">
+                <h3>BENGOO G9000 Stereo Gaming Headset for PS4 PC Xbox One PS5 Controller, Noise Cancelling Over Ear Headphones with Mic, LED Light, Bass Surround</h3>
+                <span class="best-seller">#1 Best Seller</span>
+                <p>FREE delivery <strong>Mon, Jan 29</strong></p>
+                <p class="returns">FREE Returns</p>
+                <p>Style: Wired | Size: Free</p>
+                <div class="item-actions">
+                    <label for="qty2">Qty: </label>
+                    <select id="qty2">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <button>Delete</button>
+                    <button>Save for later</button>
+                    <button>Compare with similar items</button>
+                </div>
+            </div>
+            <div class="item-price">$25.99</div>
+        </div>
+        
+
+        
+        <div class="cart-summary">
+            <p class="free-shipping">Your order qualifies for FREE Shipping. Choose this option at checkout. <a href="#">See details</a></p>
+            <h3>Subtotal (2 items): <span>₹30,000</span></h3>
+            <label><input type="checkbox"> This order contains a gift</label>
+            <button class="checkout-btn">Proceed to checkout</button>
+        </div>
+    </div>
+    <footer>
+        <img src="/assets/amazon_logo.png" width="100">
+        <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+    </footer>
+</body>
+</html>
